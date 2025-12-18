@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: dadoc
+
+
+  profiles:
+    default: local
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: none # create, update, none 중 선택
+
+    properties:
+      hibernate:
+        format_sql: TRUE
+    show-sql: TRUE
+
+
+logging:
+  level:
+    '[org.hibernate.sql]': debug 
+    '[org.hibernate.type.descriptor.sql.basicBiner]': trace
+
+

@@ -1,0 +1,4 @@
+2025-12-12 15:19:25.686170+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update [*]from books id = 1, publisher = '수오서재', title='편안함의 습격', author='마이클 이스터'\000d\000awhere id = 3"; expected "identifier"; SQL statement:
+update from books id = 1, publisher = '수오서재', title='편안함의 습격', author='마이클 이스터'
+where id = 3 [42001-240]
