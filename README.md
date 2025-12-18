@@ -1,3 +1,4 @@
+
 ### ministep.io
 #### dadoc application
 
@@ -11,3 +12,6 @@
     - validation (+test)
     - web mvc (+test)
     - lombok
+
+# dadoc-app
+골고루 책을 읽기 위한 애플리케이션
